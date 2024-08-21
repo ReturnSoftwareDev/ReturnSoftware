@@ -2,7 +2,7 @@
 
 namespace ReturnSoftware.ViewComponents;
 
-public class _NavbarComponentPartial :ViewComponent
+public class _ScriptComponentPartial :ViewComponent
 {
     public IViewComponentResult Invoke()
     {

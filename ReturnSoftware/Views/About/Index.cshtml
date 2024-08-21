@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewData["Title"] = "About Us";
+    ViewData["Controller"] = "About";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+@await Component.InvokeAsync("_AboutComponentPartial")
+
+@await Component.InvokeAsync("_TeamComponentPartial")
